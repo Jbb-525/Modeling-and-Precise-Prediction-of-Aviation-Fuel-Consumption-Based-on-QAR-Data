@@ -11,7 +11,7 @@ This project aimed to replicate existing models from the literature and continuo
 
 -  CNN-LSTM, refering to the paper "Feature Extraction and Prediction of QAR data Based on CNN-LSTM" 
 
-### Secondly, the LSTM-Attention model created by the authors is shown.
+### Secondly, the LSTM-Attention model created by the authors is shown:
 
 
 ### Thirdly, Paper "_Enhancing Aircraft Fuel Prediction with LSTM-Attention: Examining Lag Effects Across the Entire Flight_" written based on the project are also presented.
