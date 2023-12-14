@@ -3,7 +3,12 @@ This project aimed to replicate existing models from the literature and continuo
 
 ### Firstly, this project mainly contains the model reproduction by the author based on relevant paper reading:
 
-* GA-BPNN, refering to the paper "Modeling the Fuel Flow-Rate of Transport Aircraft during Flight Phases Using Genetic Algorithm-Optimized Neural Networks" 
+* GA-BPNN, refering to the paper "Modeling the Fuel Flow-Rate of Transport Aircraft during Flight Phases Using Genetic Algorithm-Optimized Neural Networks"
+
+  **Mainly achievements:**
+
+  1. Implemented the Genetic Algorithm (GA) from scratch and integrated it with a BPNN (Details in the GA-BPNN/GA.py).
+  2. Implemented Levenberg-Marquardt second-order optimization (Details in the GA-BPNN/BPNN.py).
 
 - PLS-PSO-ELMAN, refering to the paper "Aircraft Fuel Flow Prediction Based on PLS-PSO-Elman" 
 
