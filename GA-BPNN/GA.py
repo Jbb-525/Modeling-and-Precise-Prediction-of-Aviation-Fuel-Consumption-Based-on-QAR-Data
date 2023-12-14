@@ -126,33 +126,3 @@ class Genetic_Algorithm:
                    i+1, self.fitness_array.max(), self.fitness_array.mean()))
 
         print("Best fitness: {}".format(self.fitness_func(self.result())))
-
-
-if __name__ == '__main__':
-    def F(x):
-        return x + 10*np.sin(5*x) + 7*np.cos(4*x)
-
-    def calculate_fitness(x):
-        return F(x) + 50
-
-    POP_SIZE = 30
-    CHROM_LEN = 1
-    X_BOUND = (-2, 5)
-    bound = np.zeros((2, CHROM_LEN))
-    bound[0] = X_BOUND[0] * np.ones(CHROM_LEN)
-    bound[1] = X_BOUND[1] * np.ones(CHROM_LEN)
-
-    # Evolution
-    ga = Genetic_Algorithm(POP_SIZE, CHROM_LEN, bound, calculate_fitness,
-            GenomeClass=GenomeBinary, cross_prob=0.5, mutate_prob=0.1)
-    ga.genetic(50, log=True)
-
-    # Plot
-    import matplotlib.pyplot as plt
-    x_axis = np.linspace(*X_BOUND, 200)
-    print("Best fitness: {}, target: {}".format(calculate_fitness(
-        ga.result())[0], calculate_fitness(x_axis[np.argmax(F(x_axis))])))
-    plt.plot(x_axis, F(x_axis))
-    plt.scatter(ga.result(), F(ga.result()), color='r')
-    plt.show()
-
