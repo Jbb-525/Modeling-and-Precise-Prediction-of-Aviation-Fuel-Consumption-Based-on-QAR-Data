@@ -1,11 +1,9 @@
 # Modeling-and-Precise-Prediction-of-Aviation-Fuel-Consumption-Based-on-QAR-Data
 This project aimed to replicate existing models from the literature and continuously optimize them by incorporating processed QAR data to predict aircraft fuel consumption.
 
-### Firstly, this project mainly contains the model reproduction by the author based on relevant paper reading:
+## ① Model Replication
 
-* GA-BPNN, refering to the paper "Modeling the Fuel Flow-Rate of Transport Aircraft during Flight Phases Using Genetic Algorithm-Optimized Neural Networks"
-
-  **Mainly achievements:**
+###  GA-BPNN [1]
 
   1. Implemented the Genetic Algorithm (GA) from scratch and integrated it with a BPNN (Details in the GA-BPNN/GA.py).
   2. Implemented Levenberg-Marquardt second-order optimization (Details in the GA-BPNN/BPNN.py).
@@ -16,8 +14,8 @@ This project aimed to replicate existing models from the literature and continuo
 
 -  CNN-LSTM, refering to the paper "Feature Extraction and Prediction of QAR data Based on CNN-LSTM" 
 
-### Secondly, the LSTM-Attention model created by the authors is shown:
+## Secondly, the LSTM-Attention model created by the authors is shown:
 
 
-### Thirdly, Paper "_Enhancing Aircraft Fuel Prediction with LSTM-Attention: Examining Lag Effects Across the Entire Flight_" written based on the project are also presented.
+## Thirdly, Paper "_Enhancing Aircraft Fuel Prediction with LSTM-Attention: Examining Lag Effects Across the Entire Flight_" written based on the project are also presented.
 
