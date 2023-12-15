@@ -31,6 +31,6 @@ This project aimed to replicate existing models from the literature and continuo
 
 ## ③ Paper written based on the project are also presented
 
-  "_Enhancing Aircraft Fuel Prediction with LSTM-Attention: Examining Lag Effects Across the Entire Flight_"
+  "_Enhancing Aircraft Fuel Prediction with LSTM-Attention: Examining Lag Effects Across the Entire Flight_"   **First author and corresponding author**
 
 **Abstract:** This research is centered on achieving full-flight fuel consumption fitting using a single model, with a specific focus on emphasizing the potential lag effects in aircraft fuel consumption. The proposed LSTM-Attention model integrates the capabilities of the LSTM network to effectively extract correlation features and sequence features from the data. Simultaneously, the attention mechanism assumes a crucial role in accentuating temporal dependencies and lag effects associated with fuel consumption in distinct flight segments. The parameters of the model undergo meticulous optimization through adjustment experiments. Experimental results demonstrate that compared to traditional models like BPNN, ELMAN, and RNN, the proposed model more efficiently extracts fuel consumption features throughout the entire flight, reducing the average prediction error by 66.5% and improving stability by an average of 38.8%. This model not only contributes to advancing fuel-saving research based on Quick Access Recorder (QAR) data but also holds promise for fault diagnosis applications in aviation.
