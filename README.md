@@ -23,7 +23,7 @@ This project aimed to replicate existing models from the literature and continuo
 
   1. Implemented a dual-channel fusion CNN-LSTM model (Details in the CNN-LSTM.ipynb).
 
-## ② LSTM-Attention model created authors
+## ② LSTM-Attention model created by author
 
   1. Analyzed the model Replication results and the real engine situation, and resumed LSTM-Attention (Details in the LSTM-Attention.ipynb). 
   
