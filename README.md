@@ -17,14 +17,16 @@ This project aimed to replicate existing models from the literature and continuo
 
 ### · CPCLS
 
-  1. Implemented a self-organizing constructive neural network (CNN) that features a cascade architecture (Details in the CPCLS/CPCLS.ipynb).
+  1. Implemented a self-organizing constructive neural network (CNN) that features a cascade architecture (Details in the CPCLS.ipynb).
 
 ### · CNN-LSTM
 
-  1. Implemented a dual-channel fusion CNN-LSTM model (Details in the CNN-LSTM/CNN-LSTM.ipynb).
+  1. Implemented a dual-channel fusion CNN-LSTM model (Details in the CNN-LSTM.ipynb).
 
 ## ② LSTM-Attention model created authors
 
+  1. Analyzed the model Replication results and the real engine situation, and resumed LSTM-Attention (Details in the LSTM-Attention.ipynb). 
+  
 ![image](https://github.com/Jbb-525/Modeling-and-Precise-Prediction-of-Aviation-Fuel-Consumption-Based-on-QAR-Data/assets/88278422/1647874b-d10a-4db0-84a1-2eb33c815cba)
 
 ## ③ Paper written based on the project are also presented
