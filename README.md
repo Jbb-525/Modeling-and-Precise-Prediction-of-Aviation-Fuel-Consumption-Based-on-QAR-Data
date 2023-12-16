@@ -25,7 +25,7 @@ This project aimed to replicate existing models from the literature and continuo
 
 ## ② LSTM-Attention model created by author
 
-  1. Analyzed the model Replication results and the real engine situation, and resumed LSTM-Attention (Details in the LSTM-Attention.ipynb). 
+  1. Build LSTM-Attention and Implemented parameter adjust experiment(Details in the LSTM-Attention/).
   
 ![image](https://github.com/Jbb-525/Modeling-and-Precise-Prediction-of-Aviation-Fuel-Consumption-Based-on-QAR-Data/assets/88278422/1647874b-d10a-4db0-84a1-2eb33c815cba)
 
