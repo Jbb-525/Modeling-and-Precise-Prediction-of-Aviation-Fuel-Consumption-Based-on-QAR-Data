@@ -5,19 +5,19 @@ This project aimed to replicate existing models from the literature and continuo
 
 ### · GA-BPNN
 
-  1. Implemented the Genetic Algorithm (GA) from scratch (Details in the GA-BPNN/GA.py).
-  2. Implemented Levenberg-Marquardt second-order optimization (Details in the GA-BPNN/BPNN.py).
+  1. Implemented the Genetic Algorithm (GA) **from scratch** (Details in the GA-BPNN/GA.py).
+  2. Implemented **Levenberg-Marquardt** second-order optimization **from scratch**(Details in the GA-BPNN/BPNN.py).
   3. Integrated GA with BPNN (Details in the GA-BPNN/GA-BPNN.ipynb).
 
 ### · PSO-ELMAN
 
-  1. Implemented the PSO from scratch (Details in the PSO-Elman/PSO.py).
-  2. Implemented the Elman from scratch (Details in the PSO-Elman/Elman.py).
+  1. Implemented the PSO **from scratch** (Details in the PSO-Elman/PSO.py).
+  2. Implemented the Elman **from scratch** (Details in the PSO-Elman/Elman.py).
   3. Integrated PSO with Elman (Details in the PSO-Elman/PSO-Elman.ipynb)
 
 ### · CPCLS
 
-  1. Implemented a self-organizing constructive neural network (CNN) that features a cascade architecture (Details in the CPCLS.ipynb).
+  1. Implemented a self-organizing constructive neural network (CNN) that features a cascade architecture **from scratch** (Details in the CPCLS.ipynb).
 
 ### · CNN-LSTM
 
@@ -25,7 +25,7 @@ This project aimed to replicate existing models from the literature and continuo
 
 ## ② LSTM-Attention model created by author
 
-  1. Build LSTM-Attention and Implemented parameter adjust experiment(Details in the LSTM-Attention/).
+  1. Build LSTM-Attention and Implemented parameter adjust experiment (Details in the LSTM-Attention/).
   
 ![image](https://github.com/Jbb-525/Modeling-and-Precise-Prediction-of-Aviation-Fuel-Consumption-Based-on-QAR-Data/assets/88278422/1647874b-d10a-4db0-84a1-2eb33c815cba)
 
